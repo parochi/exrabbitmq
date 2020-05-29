@@ -2,19 +2,18 @@
 
 Node JS based RabbitMQ example code
 
-Step1
+Start rabbitmq server
 ```bash
 $> ./startRabbitMQ.sh
 ```
-
 Server starts and listens on the port 5672
 
-Step2
+Start the publisher to publish some messages
 ```bash
 $> npm publish <some message>
 ```
 
-Step3
+Start the consumer to consume the messages published above by publisher
 ```bash
 $> npm consume <some message>
 ```
